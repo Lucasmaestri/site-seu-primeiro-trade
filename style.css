@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/bg-desktop.jpg);
+    background-size: cover;
+    background-position: auto;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1015px;
+    margin: auto;
+}
+
+.textos {
+    margin-left: 20px;
+    margin: 100px 0;
+}
+
+.textos h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: #ff6cb1;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+.textos h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    
+}
+.textos span {
+    color: #10a2ff;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.textos p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 30px 0px;
+    padding-right: 50px;
+    line-height: 20px;
+}
+
+.button {
+    display: flex;
+    text-align: center;
+    
+}
+
+.button a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(30deg, #0096ff,#ff6cb1);
+    font-size: 21px;
+    padding: 14px 16px;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+.button a:hover {
+    box-shadow: 1px 1px 30px #ff6cb1;
+    background: linear-gradient(-30deg, #0096ff,#ff6cb1);
+}
+
+.img {
+    flex: 1;
+
+}
+
+.img img {
+    display: flex;
+    width: 500px;
+    margin-right: 50px;
+}
+
+section {
+    padding: 50px 0;
+    background: #101112;
+    max-width: 100%;
+}
+
+.area-geral {
+    border-left: solid 2px rgb(184, 184, 184);
+}
+
+.circulo {
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color: #ff6cb1;
+    margin-left: -9px;
+}
+
+.descricao {
+    margin-left: 50px;
+    padding-bottom: 70px;
+}
+
+.descricao h2 {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+.descricao p {
+    margin: -12px 0 0 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #8f8f8f;
+    padding-right: 150px;
+}
+
+.sem-borda {
+    border-left: solid 2px #101112;
+}
+
+ @media (max-width: 600px) { 
+    .container {
+        flex-direction: column-reverse;
+    }
+    .textos {
+        margin-left: 20px;
+    }    
+}
+
+@media (max-width: 1120px){
+    .container {
+        margin-left: 20px;
+    }
+    .area-geral {
+        margin-left: 20px;
+    }
+}
